@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(76, 11, 151);
+}
+
+.arreglo-productos {
+  background-color: rgb(21, 2, 55);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  display: flex;
+  height: 380px;
+  width: 380px;
+  flex-direction: column;
+  border-style: solid;
+  border-color: cadetblue;
+  padding: 1%;
+  background-color: rgb(67, 2, 74);
+  margin-top: 5%;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+h2 {
+  color: rgb(176, 176, 176);
+  text-align: center;
+}
+
+.imagen-producto {
+  height: 150px;
+  width: 150px;
+  margin-left: 30%;
+}
+
+.btn-carrito {
+  background-color: lightblue;
+  width: 100px;
+  height: 40px;
+  margin-left: 38%;
+  border-radius: 15px;
+}
+
+.btn-comprar {
+  background-color: lightblue;
+  margin-top: 50px;
+  font-size: 30px;
+  width: 300px;
+  height: 100px;
+  margin-left: 40%;
+  border-radius: 15px;
+  justify-content: center;
+}
